@@ -1,0 +1,70 @@
+/* -----[ LINKS ]------ */
+
+a.m {
+    color: white;
+    text-decoration: none;
+    transition: 0.4s;
+    font-weight: 400;
+}
+
+a.t {
+    border: 2px solid white;
+    border-radius: 3px;
+    padding: 2px 5px;
+}
+
+a.l:hover {
+    border-bottom: 1px rgb(255, 255, 255) solid;
+    padding: 1px 3px;
+}
+
+
+/* -----[ GERAL ]------ */
+
+form {
+    text-align: center;
+    margin-top: 10%;
+}
+
+input.caixa {
+    margin-bottom: 5vh;
+    padding: 15px;
+    width: 50%;
+}
+
+/* -----[ TEXT AREA ]------ */
+
+#user, #pass, #email {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 1px;
+
+    background-color: black;
+    color: white;
+
+    border: 5px solid white;
+    border-radius: 5px;
+    animation-name: border;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+/* -----[ TOS ]------ */
+
+label {
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+/* -----[ BUTTON ]------ */
+
+input#buttonC, #buttonL {
+    width: 20%;
+    margin: 40px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}

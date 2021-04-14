@@ -1,0 +1,140 @@
+/* -----[ LINKS ]------ */
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: 0.4s;
+    font-weight: 400;
+}
+
+.t:hover {
+    border-bottom: 1px rgb(255, 255, 255) solid;
+    padding: 1px 3px;
+}
+
+/* -----[ PÁGINA INICIAL ]------ */
+
+div#texto {
+    height: 52vh;
+    width: 60%;
+    text-align: justify;
+    margin: 10% auto;
+}
+
+span {
+    font-size: 28pt;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    animation-name: teste;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+div#texto p {
+    font-size: 16pt;
+}
+
+p {
+    font-size: 14pt;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+button {
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    border: none;
+}
+
+button.s {
+    font-size: 20pt;
+    height: 50px;
+    width: 100%;
+    margin-top: 2%;
+}
+
+/* -----[ PÁGINA 2 ]------ */
+
+section {
+    height: 90vh;
+}
+
+section#rgb {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: bg;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+section#rgb div {
+    width: 25%;
+    text-align: justify;
+    padding-top: 5vh;
+    display: inline-block;
+    padding: 20px;
+    padding-top: 0;
+    margin: 2%;
+    background-color: rgb(0, 0, 0);
+}
+
+p.title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    animation-name: teste;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+/* -----[ TABELA ]------ */
+
+table {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    margin: 15% auto;
+    width: 70%;
+    height: 70%;
+    animation-name: border;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+caption {
+    font-family: 'Oswald', sans-serif;
+    font-size: 64px;
+    font-weight: 500;
+    animation-name: teste;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+td {
+    font-size: 32px;
+    padding: 20px;
+}
+
+td.u {
+    padding-right: 0;
+    margin-right: 0;
+}
+
+/* -----[ PAGE UP ]------ */
+
+div.button {
+    float: right;
+    margin-right: 3vw;
+}
+
+button.f {
+    font-size: 15pt;
+    padding: 5px 15px 10px 15px;
+    animation-name: bg;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
