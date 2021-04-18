@@ -18,84 +18,107 @@ a.l:hover {
     padding: 1px 3px;
 }
 
-/* -----[ IMAGEM ]------ */
+/* --------------[ DESKTOP ]-------------- */
 
-img {
-    width: 270px;
-    height: 480px;
-    float: left;
-    animation-name: border;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    border-radius: 3px;
-}
+/* -----[ IMAGEM ]------ */
+@media (min-width: 768px)
+{
+    img {
+        width: 28%;
+        float: left;
+        animation-name: border;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+        border-radius: 3px;
+    }
+
+    div#texto_vitor img {
+        margin-bottom: 5%;
+    }
 
 /* -----[ TEXTO ]------ */
 
-div#texto {
-    height: 52vh;
-    margin: 5% 5%;
-}
+    div#texto {
+        height: 52vh;
+        margin: 5% 5%;
+    }
 
-p {
-    text-align: justify;
-    width: 70%;
-    margin-top: 10%;
-    float: right;
-    font-size: 14pt;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 18pt;
-}
+    p {
+        text-align: justify;
+        width: 70%;
+        float: right;
+        font-size: 14pt;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 18pt;
+    }
 
-span {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 500;
-    font-size: 30px;
+    span {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+        font-size: 30px;
 
-    animation-name: shadow;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
+        animation-name: shadow;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
 
-    cursor: pointer;
-}
+        cursor: pointer;
+    }
+
+    div#texto_vitor {
+        margin: 8% 5% 5%;
+    }
+
+    div#texto_vitor p {
+        margin-top: 7%;
+        font-size: 20pt;
+    }
 
 /* -----[ REDES SOCIAIS ]------ */
 
-div.cor {
-    background-color: rgb(255, 255, 255);
-    height: 48px;
-    visibility: hidden;
-}
+    div.cor {
+        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(12, 12, 12) 100%);
+        height: 48px;
+        visibility: hidden;
+        margin-top: -12vh;
+        
+        animation-name: shadowbox;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
 
-div.cor ul {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    list-style: none;
-}
+    }
 
-div.cor ul li {
-    margin: 8px 10px;
-    color: black;
-}
+    div.cor ul {
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        padding-left: 65vh;
+        list-style: none;
+    }
 
-div.cor a, div.cor a:visited, li#discord{
-    color: black;
-    text-decoration: none;
-    font-family: 'Oswald', sans-serif;
-    font-size: 20px;
-    transition: 200ms;
-}
+    div.cor ul li {
+        margin: 8px 10px;
+        color: white;
+    }
 
-div.cor a:hover, li#discord:hover {
-    background-color: rgb(0, 0, 0);
-    opacity: 80%;
-    color: white;
-    padding: 0 6px;
-    border-radius: 5px;
-}
+    div.cor a, div.cor a:visited, li#discord{
+        color: white;
+        text-decoration: none;
+        font-family: 'Oswald', sans-serif;
+        font-size: 20px;
+        transition: 200ms;
+    }
 
-li#discord {
-    cursor: pointer;
+    div.cor a:hover, li#discord:hover {
+        background-color: rgb(0, 0, 0);
+        opacity: 80%;
+        color: white;
+        padding: 0 6px;
+        border-radius: 5px;
+    }
+
+    li#discord {
+        cursor: pointer;
+    }
+
 }

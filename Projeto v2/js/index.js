@@ -12,6 +12,13 @@ function enter() {
   div.style.visibility = 'visible'
 }
 
+function enterV() {
+  span = document.querySelector("div#texto_vitor p")
+  div = document.querySelector("div.cor")
+
+  div.style.visibility = 'visible'
+}
+
 // SOBRE [Discord] //
 
 function discC() {
